@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Christian Alzate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Christian</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#habilidades" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div> 
+    
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Christian.png" alt="">
+            </div>
+            <h1>CHRISTIAN ALZATE</h1>
+            <h2>Desarrollador web full stack y ciencias de la computación</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="https://www.linkedin.com/in/christian-alzate1990/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/ChristianAlzate090" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Christian Alzate.</span> Soy una hombre formado con principios éticos y valores, creativo y con la capacidad de adaptación al trabajo individual y en equipo; con espíritu de liderazgo y enfocado al éxito de la organización y todos sus componentes</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            01-02-1990
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            chris-aav@hotmail.com
+                        </li>
+                        <li>
+                            <strong>País</strong>
+                            Colombia
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.example.com
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>FUTBOL</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LEER</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-film"></i>
+                            <span>PELICULAS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-campground"></i>
+                            <span>ACAMPAR</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-plane-departure"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="https://drive.google.com/file/d/1gv8OzWqTChAkBUxtBN465sWTVS2EhLcP/view?usp=sharing" target="_blank">
+                <button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <!-- SECCION HABILIDADES -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Habilidades Tecnicas -->
+                <div class="col">
+                    <h3>Habilidades Tecnicas</h3>
+                    <div class="habilidad">
+                        <span>Javascript</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso javaScript">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>HTML & CSS</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Ingles</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Habilidades Profesionales -->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="habilidad">
+                        <span>Comunicación</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Creatividad</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Dedicación</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Gestión de Proyectos</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col derecha">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Tecnologo en Negocios Internacionales</h4>
+                        <span class="casa">Sena Centro de Negocios Pereira</span>
+                        <span class="fecha">2011 - 2013</span>
+                        <p>El Tecnólogo en Comercio Exterior y Negocios Internacionales, gestiona procesos de importación, exportación y logística de las operaciones de comercio nacional e internacional, cumpliendo con los requerimientos de la normatividad vigente y las oportunidades comerciales para apoyar los procesos de negociación, diseñando e implementando proyectos de desarrollo empresarial en comercio internacional, gestiona los procesos logísticos de las operaciones de Exportación e Importación y las negociaciones internacionales que surjan de este para garantizar la eficiencia y seguridad del producto.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Excel Intermedio</h4>
+                        <span class="casa">Sena Centro de Negocios Pereira</span>
+                        <span class="fecha">2021</span>
+                        <p>Funciones más importantes de Excel, tanto matemáticas, de fecha, de búsqueda, lógicas e información, entre otras.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Desarrollador Web Full Stack</h4>
+                        <span class="casa">Academlo</span>
+                        <span class="fecha">2023</span>
+                        <p>Con alto conocimiento en JavaScript, sobre sus características y frameworks, como Angular o React, además de saber trabajar con DOM, conocer JSON y manipularlo o estructurar el código ademas de manejar muy bien HTML y CSS, para darle diseño y decoracion a las paginas.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col izquierda">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        <h4>Ejecutivo Comercial</h4>
+                        <span class="casa">Tracker De Colombia</span>
+                        <span class="fecha">2023</span>
+                        <p>Apertura de mercado para la venta de equipos de localización
+                            vehicular, así como el mantenimiento de cliente actuales, en lo
+                            que más me destaco como lo eh hecho en trabajos anteriores,
+                            es en mi eficiencia para resolver problemas, no solo de mi
+                            cargo, si no también de cliente frente a la empresa o de la
+                            misma empresa frente a problemas como de logística, de
+                            planeación de evento o de implementación de nuevas ofertas.
+
+                            Como la empresa no tiene oficinas en todo el territorio nacional,
+                            la idea de mi cargo es abrir mercado en la ciudad y de esta
+                            manera poder tener más presencia en todo el eje cafetero</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Asesor de Seguros de Vida</h4>
+                        <span class="casa">Seguros Bolívar</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>Atención directa a clientes de colegios y escuelas de Risaralda
+                            y Quindío, para ofrecer el portafolio de seguros para docentes.
+                            </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Analista de Seguridad Electronica</h4>
+                        <span class="casa">Seguridad Nacional LTDA</span>
+                        <span class="fecha">2019 - 2022</span>
+                        <p>Análisis técnico para la instalación de equipos de seguridad
+                            electrónica, controles de acceso, sistemas contra incendios,
+                            cctv, etc…
+                            Se logran cerrar negocios importantes en el eje cafetero y norte
+                            del valle, como la instalación de un sistema contra incendio,
+                            bajo las normas de ley, en el edificio centro financiero, se
+                            implementan barreras perimetrales y sensores de movimiento
+                            para la estación principal de gas de efigas, se le implementa
+                            seguridad electrónica y cctv a jardines infantiles san José de
+                            Cartago, entre otros.
+                            Lo que mas me ayudo fue mi capacidad de planeación y
+                            resolución de problemas, para llegar a estos acuerdos
+                            comerciales tan importantes para la empresa.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/P1.jpg" alt="">
+                    <div class="overlay">
+                        <a href="https://pokedexjbc.netlify.app/" target="_blank">
+                            <h3>Pokedex</h3>
+                            <p>Pokedex</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/P2.jpg" alt="">
+                    <div class="overlay">
+                        <a href="https://rickandmortybjc.netlify.app/" target="_blank">
+                            <h3>Wiki RickAndMorthy</h3>
+                            <p>RickAndMorthy</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/P3.jpg" alt="">
+                    <div class="overlay">
+                        <a href="https://weatherapp2000.netlify.app/" target="_blank">
+                            <h3>Aplicativo del clima</h3>
+                            <p>Clima</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/P4.jpg" alt="">
+                    <div class="overlay">
+                        <a href="https://spacecuriosities.netlify.app/" target="_blank">
+                            <h3>Curiosidades del espacio</h3>
+                            <p>Curiosidades Espaciales</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/P5.jpg" alt="">
+                    <div class="overlay">
+                        <a href="https://cjbsolutions.netlify.app/" target="_blank">
+                            <h3>Tienda Virtual</h3>
+                            <p>Tienda</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/P6.jpg" alt="">
+                    <div class="overlay">
+                        <a href="https://datebasejbc.netlify.app/" target="_blank">
+                            <h3>Base de Datos</h3>
+                            <p>Datos</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Numero telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-envelope-open-text"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-map-location-dot"></i>
+                                Pereira, Colombia
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-inbox"></i>
+                                Inbox: chris-aav@hotmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
